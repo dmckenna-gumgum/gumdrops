@@ -4,7 +4,8 @@ Textarea inputs are used for inputting large blocks of text into a form. It is r
 *Recommended props*: `value` and `onChange`.*
 
 **Controlled example:**
-```
+
+```jsx
 state = {
     textAreaContent: ''
 }

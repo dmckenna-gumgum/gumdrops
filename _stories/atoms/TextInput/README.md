@@ -5,7 +5,7 @@ The `<TextInput>` component can be user for any single-lined text or password in
 
 **Uncontrolled example:**
 
-```
+```jsx
 _handleSubmit = ({ target }) => console.log(target.username.value);
 
 render() {
@@ -22,7 +22,8 @@ render() {
 ```
 
 **Controlled example:**
-```
+
+```jsx
 state = {
     username: ''
 }

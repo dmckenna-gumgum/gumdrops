@@ -19,7 +19,8 @@ recoveryFn      | Callback used to redirect to a password recovery page
 recoveryText    | Text to show for password recovery, defauts to "Forgot your password?"
 
 **Example**:
-```
+
+```jsx
 state {
     username: null,
     password: null,

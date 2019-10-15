@@ -15,7 +15,7 @@ The following props may be passed to configure the Radio Group. All additional p
 
 ## Example
 
-```javascript
+```jsx
 const options = [
     {
         label: 'Foo',

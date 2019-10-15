@@ -4,7 +4,7 @@ As the name suggests, the `<SearchMultiSelect>` comes with a case insensitive te
 
 **Example**:
 
-```
+```jsx
 state = {
     names: namesList
 };

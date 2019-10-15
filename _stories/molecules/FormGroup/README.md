@@ -6,7 +6,7 @@ However, this depends on what type of input you are working on. Context is optio
 
 *TextInput example*:
 
-```
+```jsx
 <FormGroup context="danger">
     <FormGroupLabel .../>
     <TextInput .../>
@@ -15,7 +15,8 @@ However, this depends on what type of input you are working on. Context is optio
 ```
 
 **Select example**:
-```
+
+```jsx
 <FormGroup>
     <FormGroupLabel .../>
     <Select .../>

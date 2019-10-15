@@ -19,7 +19,7 @@ The following props can be passed to the `<Toggle>` component. Any additional pr
 
 **Controlled example - Example for single Toggle**:
 
-```
+```jsx
 state = {
     myToggle: false
 }
@@ -42,7 +42,7 @@ return (
 
 **Uncontrolled example**:
 
-```
+```jsx
 _handleSubmit = (e) => {
     e.preventDefault();
     const { myToggle } = e.target.elements;

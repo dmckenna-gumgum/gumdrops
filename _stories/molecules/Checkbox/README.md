@@ -5,7 +5,8 @@ The `<Checkbox>` component can be wrapped with the `<FormGroup>` component. It c
 *Recommended Props*: `name`, `checked`, `defaultChecked`, `onChange`
 
 **Controlled example - Example with reusable checkbox handler**:
-```
+
+```jsx
 state {
     parrots: false
 }
@@ -30,7 +31,8 @@ return(
 
 
 **Uncontrolled example**:
-```
+
+```jsx
 _handleSubmit = (e) => {
     e.preventDefault();
     const {

@@ -29,7 +29,7 @@ The configuration is simply an object that represents the app's routes:
 
 ### Configuration Example:
 
-```
+```jsx
 const routes = {
     title: 'Home', // Root title
     path: 'home', // Root path is optional, defaults to '/'
@@ -76,7 +76,7 @@ const routes = {
 
 ### No configuration object passed, the component will generate breadcrumbs based on the pathname prop:
 
-```
+```jsx
 render() {
     const pathname = '/products/12/edit';
     return (
@@ -91,7 +91,7 @@ render() {
 
 ### Passing a configuration object, custom component and hiding submenus:
 
-```
+```jsx
 const CustomLink = (props) => (
     <a href={props.to} >
         {props.children}
@@ -116,7 +116,7 @@ render() {
 
 ### Passing a custom title decorator and hiding the root breadcrumb:
 
-```
+```jsx
 _decorateTitle = (title) => title.toUpperCase();
 
 render() {

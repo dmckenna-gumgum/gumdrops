@@ -22,7 +22,7 @@ Multi-select also supports nested options [See Nested Options](#nested-options).
 
 Options determine the construction of the multi-select menu. It takes an `Array` of `Objects` with the following shape:
 
-```javascript
+```js
 {
     name: 'John', // label displayed next to the checkbox
     value: 'john', // value associated with the option
@@ -32,7 +32,7 @@ Options determine the construction of the multi-select menu. It takes an `Array`
 
 Here's an example of a possible set of options:
 
-```javascript
+```js
 const people = [
     {
         name: 'John',
@@ -61,7 +61,7 @@ const people = [
 
 You may also have nested options. Here's an example:
 
-```javascript
+```js
 const pets = [
     {
         name: 'All Pets',
@@ -107,7 +107,7 @@ const pets = [
 
 ## Example
 
-```javascript
+```jsx
 import MultiSelect from 'gumdrops/MultiSelect';
 import pets from './pets';
 

@@ -27,7 +27,7 @@ The following props may be passed to configure the individual `<AccordionItem />
 
 You can use `<Accordion>` to display any information that you pass in, such as:
 
-```
+```jsx
 <Accordion>
     <AccordionItem label="Controls">
         <FormGroup>
@@ -40,7 +40,7 @@ You can use `<Accordion>` to display any information that you pass in, such as:
 
 You can also use `<Accordion>` to display information in a list form, in the case you want to list items in rows. Example:
 
-```
+```jsx
 <Accordion>
     <AccordionItem label="Settings">
         <AccordionItemContent>

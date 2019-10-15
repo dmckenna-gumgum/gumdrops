@@ -3,7 +3,8 @@ The standard  `<Divider>` component is used to separate distinct segments of con
 If the divider is collapsible, pass in a callback function that sets the state, and include the state in your component.
 
 **Example**:
-```
+
+```jsx
 state {
     open: false
 }

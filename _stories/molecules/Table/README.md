@@ -85,7 +85,7 @@ const People = () => <Table columns={columns} data={data} />;
 
 Custom markup can be created for individual table data cells (`<td>`) by adding a `dataCellDecorator` function:
 
-```js
+```jsx
 import TableData from 'gumdrops/TableData';
 
 const weightCellDecorator = (cellData, key, rowData) => (
@@ -117,7 +117,7 @@ const People = () => <Table columns={columns} data={data} />;
 
 Sorting can be customized with the `sortCompareAsc` and `sortCompareDesc` properties which define the compare functions to be used for ascending and descending sorting.
 
-```js
+```jsx
 const columnsAdvanced = [
     { key: 'name' },
     {
@@ -168,7 +168,7 @@ If the Table has a `customRowKey` prop, this value will be generated from the co
 
 The following example will produce rows with keys `key-x123` and `key-y456` from data rows `id: x123` and `id: y456` respectively.
 
-```js
+```jsx
 const data = [
     { name : 'Alice', age: 20, id: 'x123' },
     { name : 'Bob', age: 20, id: 'y456' },

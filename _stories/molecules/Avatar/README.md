@@ -8,7 +8,7 @@ For the menu contents, you must pass in `menuOptions` (an array of objects of na
 
 **Example**:
 
-```
+```jsx
 state {
     avatarOpen: false
 }
@@ -36,7 +36,7 @@ return(
 
 **Options Format**:
 
-```
+```js
 const AvatarMenu = [
     { name: 'Change Password', path: '/account/change-password' },
     { name: 'Change Brand', path: '/account/change-brand' },

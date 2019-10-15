@@ -24,7 +24,8 @@ Additionally, the following atom components are optional and can be used to wrap
     Requires a children component.
 
 **Example**:
-```
+
+```jsx
 state {
     isModalOpen: false
 }

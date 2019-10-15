@@ -4,7 +4,7 @@ The color of this component is dependent on the `FormGroup's context`.
 
 **Example:**
 
-```
+```jsx
 <FormGroup>
     <FormGroupLabel  ... />
     <TextInput name="password" ... />

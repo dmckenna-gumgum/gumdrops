@@ -4,7 +4,7 @@ When a page change is detected, the `onChange` prop will be called with the next
 
 **Example**:
 
-```
+```jsx
 state = {
     activePage: 7,
     lastPage: 70

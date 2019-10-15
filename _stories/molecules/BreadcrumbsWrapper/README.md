@@ -27,7 +27,7 @@ The `<BreadcrumbsWrapper>` component helps when you need more customization than
 
 ### Create a custom array of breadcrumbs and pass it to the component:
 
-```
+```jsx
 class Header extends Component {
     state = {
         breadcrumbs: [
