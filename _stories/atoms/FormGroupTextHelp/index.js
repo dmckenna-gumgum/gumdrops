@@ -7,7 +7,7 @@ import TextInput from '../../../components/atoms/TextInput';
 import FormGroup from '../../../components/molecules/FormGroup';
 
 const component = () => (
-    <FormGroup context="danger">
+    <FormGroup context="danger" id="target">
         <TextInput name="password" type="password" defaultValue="badpassword" />
         <FormGroupTextHelp
             text={text('Text', 'Your password is incorrect')}

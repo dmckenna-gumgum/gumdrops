@@ -13,6 +13,7 @@ const sizeOptions = {
 
 const component = () => (
     <LoadingDots
+        id="target"
         size={optionalSelect('Size', sizeOptions, '')}
         whiteDots={boolean('White Dots', false)}
         className={text('ClassName', '-p-a-5')}

@@ -24,6 +24,7 @@ const circularThumbnailContexts = {
 
 const component = () => (
     <CircularThumbnail
+        id="target"
         context={optionalSelect('Context', circularThumbnailContexts, '')}
         size={optionalSelect('Size', circularThumbnailSizeOptions, '')}
         src={text('Image Path', 'https://ds.gumgum.com/images/ken.png')}

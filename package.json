@@ -22,7 +22,8 @@
         "test:watch": "NODE_ENV='test' jest --watch",
         "preclean": "rimraf node_modules",
         "clean": "yarn cache clean && yarn install",
-        "prettier": "prettier \"*/**/*.{js,jsx,json,css,scss}\" --ignore-path ./.prettierignore --write && git status"
+        "prettier": "prettier \"*/**/*.{js,jsx,json,css,scss}\" --ignore-path ./.prettierignore --write && git status",
+        "build-sketch": "story2sketch"
     },
     "jest": {
         "setupFiles": [
@@ -54,7 +55,8 @@
     },
     "dependencies": {
         "classnames": "^2.2.5",
-        "react-modal": "^3.1.7"
+        "react-modal": "^3.1.7",
+        "story2sketch": "^1.7.0"
     },
     "devDependencies": {
         "@babel/cli": "^7.2.3",

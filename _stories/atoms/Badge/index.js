@@ -20,6 +20,7 @@ const options = {
 
 const component = () => (
     <Badge
+        id="target"
         text={text('Text', '2')}
         context={optionalSelect('Context', options, '')}
         empty={boolean('Empty', false)}

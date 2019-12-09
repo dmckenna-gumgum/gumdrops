@@ -26,6 +26,7 @@ const sizeOptions = {
 const component = () => (
     <div style={{ minHeight: 100 }}>
         <NumberCircle
+            id="target"
             text={text('Text', '1')}
             size={optionalSelect('Size', sizeOptions, '')}
             context={optionalSelect('Context', contextOptions, '')}

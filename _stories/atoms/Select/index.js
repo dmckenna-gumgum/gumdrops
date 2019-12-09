@@ -47,6 +47,7 @@ const component = () => (
         <FormGroup>
             <FormGroupLabel text="Fruits" />
             <Select
+                id="target"
                 options={object('Options', options)}
                 name={text('Name', 'fruit')}
                 value={text('Value', '2')}

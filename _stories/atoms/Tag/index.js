@@ -23,6 +23,7 @@ const sizeOptions = {
 
 const component = () => (
     <Tag
+        id="target"
         context={optionalSelect('Context', contextOptions, 'primary')}
         className={text('Classes', '')}
         hasOption={boolean('Has Option', true)}

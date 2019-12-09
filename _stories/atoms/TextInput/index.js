@@ -15,6 +15,7 @@ const sizeOptions = {
 
 const component = () => (
     <TextInput
+        id="target"
         readOnly={boolean('readonly', false)}
         type={select('Type', ['text', 'password'], 'text')}
         size={optionalSelect('Size', sizeOptions, 'md')}

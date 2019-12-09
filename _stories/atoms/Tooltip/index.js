@@ -39,6 +39,7 @@ const tooltipVariationsOptions = {
 
 const component = () => (
     <Tooltip
+        id="target"
         text={text('Text', 'I am a tooltip!')}
         position={optionalSelect('Position', tooltipPositions)}
         context={optionalSelect('Context', tooltipContexts, '')}

@@ -26,6 +26,7 @@ const contextOptions = {
 
 const component = () => (
     <Button
+        id="target"
         type={text('Type', 'button')}
         size={optionalSelect('Size', sizeOptions, '')}
         context={select('Context', contextOptions, 'default')}
@@ -34,7 +35,6 @@ const component = () => (
         onClick={action('button_clicked')}
         className={text('ClassName', '')}
         style={object('Style', {})}>
-        <i className="fa fa-check -m-r-2" />
         Great Success
     </Button>
 );

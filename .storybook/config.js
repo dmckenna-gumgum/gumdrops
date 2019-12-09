@@ -29,7 +29,7 @@ function loadStories() {
     require('../_stories/');
 }
 
-const storyWrapper = story => <div style={{ margin: 35 }}>{story()}</div>;
+const storyWrapper = story => <div>{story()}</div>;
 
 addDecorator(
     withInfo({

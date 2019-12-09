@@ -8,6 +8,7 @@ const contextOptions = ['up', 'same', 'down'];
 
 const component = () => (
     <Trend
+        id="target"
         context={select('Context', contextOptions, 'up')}
         value={text('Value', '42')}
         unit={text('Unit', '%')}

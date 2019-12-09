@@ -15,6 +15,7 @@ const sizeOptions = {
 
 const component = () => (
     <ButtonGroup
+        id="target"
         size={optionalSelect('Size', sizeOptions, '')}
         responsive={boolean('Responsive', false)}
         className={text('ClassName', '')}

@@ -14,6 +14,7 @@ const sizeOptions = {
 
 const component = () => (
     <ProgressBar
+        id="target"
         className={text('ClassName', '')}
         isSecondary={boolean('isSecondary', false)}
         isStriped={boolean('isStriped', false)}

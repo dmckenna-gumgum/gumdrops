@@ -22,6 +22,7 @@ const resizeOptions = {
 
 const component = () => (
     <TextArea
+        id="target"
         size={optionalSelect('Size', sizeOptions, '')}
         resize={optionalSelect('Resize', resizeOptions, '')}
         value={text('Content', 'Content goes here')}

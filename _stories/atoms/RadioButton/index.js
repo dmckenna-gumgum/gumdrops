@@ -15,6 +15,7 @@ const contextOptions = {
 
 const component = () => (
     <RadioButton
+        id="target"
         className={text('Class Name', 'custom-class')}
         label={text('Label', 'Yes')}
         value={text('Value', 'yes')}
